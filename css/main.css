@@ -1,7 +1,10 @@
 
 /*
-
+lightest blue #E0EAF7
 Dark blue #4A5BA8
+
+lightest purple: #DBDBEE;
+
 Dark green #00A88A
 */
 
@@ -26,12 +29,30 @@ body {
 	background-color: #97C0E6;
 }
 
+.masthead {
+	background-color: #4A5BA8;
+}
+
+.banner {
+	padding: 7rem 1rem;
+	text-align: center;
+	background-color: #E0EAF7;
+}
+
 h1, h2, h3, h4{ 
 	font-weight: normal;
 }
 
 ul {
 	list-style-type: none;
+}
+
+.definition {
+	background-color: #DBDBEE;
+}
+
+.brain {
+	width: 50%;
 }
 
 /*traits styling*/
@@ -52,3 +73,15 @@ h4 {
 	border-radius: 150px;
 	border: 3px solid white;
 }
+
+/*advice styling*/
+
+#advice {
+	border-top: 1rem solid #4A5BA8;
+	border-bottom: 1rem solid #4A5BA8;
+}
+
+#advice svg {
+	width: 30%;
+}
+

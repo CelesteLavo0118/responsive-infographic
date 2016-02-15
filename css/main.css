@@ -4,9 +4,15 @@ lightest blue #E0EAF7
 medium bule #3C9BD6
 Dark blue #4A5BA8
 
-lightest purple: #DBDBEE;
+Dark purple #57246A
+True purple #9863A9
+medium purple #B998C7
+light purple #DED1E7
 
-Dark green #00A88A
+Dark green #006C5F
+True green #00A88A
+medium green #61C4B2
+light green #C1E4DC
 */
 
 
@@ -42,9 +48,6 @@ body {
 	background-color: #8EBBE4;
 }
 
-.banner > p {
-	font-size: 1.5rem;
-}
 
 h1 {
 	padding: 0;
@@ -68,24 +71,61 @@ ul {
 	list-style-type: none;
 }
 
+/*definiton styling*/
+
 .definition {
 	background-color: #E0EAF7;
 }
 
+.definition p {
+	border: .5rem dotted #EBB5D4;
+	border-radius: 100px;
+
+	margin: 1rem;
+	padding: 3rem;
+}
+
 .brain {
-	width: 50%;
+	width: 90%;
 }
 
 /*traits styling*/
 
+.traits {
+	padding: 1rem;
+}
+
+.traits h3 {
+	color: #fff;
+}
+
 .left-traits ul li h4 {
-  background-color: #4A5BA8;
+  background-color: #00A88A;
 }
 
 .right-traits ul li h4 {
-	background-color: #00A88A;
+	background-color: #9863A9;
 }
 
+.traits ul li p {
+	background-color: #fff;
+	padding: .5rem;
+	border-radius: 0 50px 50px 0;
+
+	display: inline-block;
+}
+
+.traits ul li p span {
+	display: inline;
+}
+
+.left-traits {
+	background-color: #61C4B2;
+}
+
+.right-traits {
+	background-color: #B998C7;
+}
 
 
 h4 {
@@ -99,19 +139,35 @@ h4 {
 	border: 3px solid white;
 }
 
-.traits ul li p {
-	display: inline;
-}
 
 
 /*advice styling*/
 
-#advice {
-	border-top: 1rem solid #4A5BA8;
-	border-bottom: 1rem solid #4A5BA8;
+.advice {
+	padding: 1rem;
 }
 
 #advice svg {
 	width: 30%;
 }
 
+.left-advice {
+	background-color: #A2D9CE;
+}
+
+.right-advice {
+	background-color: #CDB7D9;
+}
+
+/*footer styling*/
+
+footer {
+	background-color: #4A5BA8;
+}
+
+footer svg {
+	width: 10em;
+	display: block;
+	margin: auto;
+	padding: 1rem;
+}

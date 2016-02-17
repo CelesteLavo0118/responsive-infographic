@@ -48,6 +48,10 @@ body {
 	background-color: #8EBBE4;
 }
 
+.banner p {
+	color: #fff;
+}
+
 
 h1 {
 	padding: 0;
@@ -93,11 +97,25 @@ ul {
 
 
 .traits {
-	padding: 1rem;
+	padding: 1rem 1rem 3rem;
+
+	position: relative;
 }
 
 .traits h3 {
 	color: #fff;
+	margin-bottom: 3rem;
+}
+
+h4 {
+	color: #fff;
+	font-size: 1.5rem;
+
+	display: inline-block;
+	padding: .5rem;
+	margin: 0;
+	border-radius: 150px;
+	border: 3px solid white;
 }
 
 .left-traits ul li h4 {
@@ -106,14 +124,6 @@ ul {
 
 .right-traits ul li h4 {
 	background-color: #9863A9;
-}
-
-.traits ul ~ p {
-	background-color: #fff;
-	padding: .5rem;
-	border-radius: 0 50px 50px 0;
-
-	display: none;
 }
 
 .left-traits {
@@ -128,26 +138,40 @@ input {
 	display: none;
 }
 
+.traits li {
+	display: inline-block;
+}
+
 .trait-description {
 	display: none;
+
+	position: absolute;
+	bottom: 1px;
+	left: 1rem;
+
+
+	background-color: #fff;
+	padding: .5rem;
+	border-radius: 100px;
 }
 
 [type=radio]:checked ~ label ~ .trait-description {
   display: block;
 }
 
-
-h4 {
-	color: #fff;
-	font-size: 1.5rem;
-
-	display: inline-block;
-	padding: .5rem;
-	margin: 0;
-	border-radius: 150px;
-	border: 3px solid white;
+[type=radio]:checked ~ label h4 {
+	background-color: #fff;
 }
 
+.left-traits [type=radio]:checked ~ label h4 {
+	color: #00A88A;
+	border: 3px solid #00A88A;
+}
+
+.right-traits [type=radio]:checked ~ label h4 {
+	color: #9863A9;
+	border: 3px solid #9863A9;
+}
 
 
 /*advice styling*/

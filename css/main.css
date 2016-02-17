@@ -39,7 +39,13 @@ body {
 .masthead {
 	background-color: #4A5BA8;
 
-	padding: 1rem 5rem 0 5rem;
+	padding: 1rem 5rem;
+}
+
+header svg {
+	max-width: 50rem;
+	display: block;
+	margin: 0 auto;
 }
 
 .banner {
@@ -71,9 +77,6 @@ h1, h2, h3, h4{
 	font-weight: normal;
 }
 
-ul {
-	list-style-type: none;
-}
 
 /*definiton styling*/
 
@@ -81,17 +84,14 @@ ul {
 	background-color: #E0EAF7;
 }
 
-.definition p {
+.definition-text {
 	border: .5rem dotted #EBB5D4;
 	border-radius: 100px;
-
-	margin: 1rem;
 	padding: 3rem;
+
+
 }
 
-.brain {
-	width: 90%;
-}
 
 /*traits styling*/
 

@@ -91,6 +91,7 @@ ul {
 
 /*traits styling*/
 
+
 .traits {
 	padding: 1rem;
 }
@@ -107,16 +108,12 @@ ul {
 	background-color: #9863A9;
 }
 
-.traits ul li p {
+.traits ul ~ p {
 	background-color: #fff;
 	padding: .5rem;
 	border-radius: 0 50px 50px 0;
 
-	display: inline-block;
-}
-
-.traits ul li p span {
-	display: inline;
+	display: none;
 }
 
 .left-traits {
@@ -125,6 +122,18 @@ ul {
 
 .right-traits {
 	background-color: #B998C7;
+}
+
+input {
+	display: none;
+}
+
+.trait-description {
+	display: none;
+}
+
+[type=radio]:checked ~ label ~ .trait-description {
+  display: block;
 }
 
 

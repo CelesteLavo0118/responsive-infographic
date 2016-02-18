@@ -71,8 +71,6 @@ h2 {
 	border-radius: 100px;
 }
 
-
-
 h1, h2, h3, h4{ 
 	font-weight: normal;
 }
@@ -88,13 +86,9 @@ h1, h2, h3, h4{
 	border: .5rem dotted #EBB5D4;
 	border-radius: 100px;
 	padding: 3rem;
-
-
 }
 
-
 /*traits styling*/
-
 
 .traits {
 	padding: 1rem 1rem 3rem;
@@ -116,6 +110,8 @@ h4 {
 	margin: 0;
 	border-radius: 150px;
 	border: 3px solid white;
+
+	width: 100%;
 }
 
 .left-traits ul li h4 {
@@ -138,8 +134,24 @@ input {
 	display: none;
 }
 
+
 .traits li {
 	display: inline-block;
+
+	width: 100%;
+}
+
+@media only screen and (min-width: 20em) {
+	.traits li {
+		width: 45%;
+	}
+}
+
+
+@media only screen and (min-width: 38em) {
+	.traits li {
+		width: 30%;
+	}
 }
 
 .trait-description {
@@ -153,7 +165,18 @@ input {
 	background-color: #fff;
 	padding: .5rem;
 	border-radius: 100px;
+
+	width: calc(100% - 2rem);
 }
+
+@media only screen and (min-width: 20em) {
+	.trait-description {
+		width: 90%;
+
+		left: 2.5rem;
+	}
+}
+
 
 [type=radio]:checked ~ label ~ .trait-description {
   display: block;
@@ -173,15 +196,10 @@ input {
 	border: 3px solid #9863A9;
 }
 
-
 /*advice styling*/
 
 .advice {
 	padding: 1rem;
-}
-
-#advice svg {
-	width: 30%;
 }
 
 .left-advice {

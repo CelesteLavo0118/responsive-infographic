@@ -210,6 +210,24 @@ input {
 	background-color: #CDB7D9;
 }
 
+.advice p {
+	background-color: #fff;
+	padding: 1rem;
+	border-radius: 100px;
+}
+
+.advice {
+	padding: 0;
+}
+
+.left-advice ul li:nth-child(odd) {
+	background-color: #C1E4DC;
+}
+
+.right-advice ul li:nth-child(odd) {
+	background-color: #DED1E7;
+}
+
 /*footer styling*/
 
 footer {

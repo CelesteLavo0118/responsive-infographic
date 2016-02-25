@@ -14,22 +14,25 @@
 	fill:#EBB5D4;
 }
 
-.br-0 {
-	fill:#B0618E;
-}
-
-.br-1 {
-	fill:#DD73AD;
-}
-
-.br-2 {
+.bm0 {
 	fill:#D74C9B;
 }
 
-.br-3 {
+.bm1 {
 	fill:#E0EAF7;
 }
 
+.bm2 {
+	fill:#ECF0F9;
+}
+
+.bm3 {
+	fill:#8EBBE4;
+}
+
+.bm4 {
+	fill:#4094D1;
+}
 
 .lt1-0 {
 	fill:#BEE3DB;
@@ -205,28 +208,4 @@
 	stroke-linecap:round;
 	stroke-linejoin:round;
 	stroke-miterlimit:10;
-}
-
-.rmag0 {
-	fill:#ECF0F9;
-}
-
-.rmag1 {
-	fill:#8EBBE4;
-}
-
-.rmag2 {
-	fill:#4094D1;
-}
-
-.lmag0 {
-	fill:#ECF0F9;
-}
-
-.lmag1 {
-	fill:#4094D1;
-} 
-
-.lmag2 {
-	fill:#8EBBE4;
 }

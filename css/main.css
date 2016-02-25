@@ -77,18 +77,37 @@ h1, h2, h3, h4{
 
 /*rotating magnifying glasses*/
 
-.left-mag {
-	transform: rotate(-90deg);
+.brain-box {
+	position: relative;
 }
 
-#left-hem:hover + .left-mag {
+
+.right-mag {
+	position: absolute;
+	top: 10rem;
+
+	transform: rotate(90deg);
+}
+
+.left-mag {
+	position: absolute;
+	top: 10rem;
+	left: -20rem;
+
+	transform: rotate(-90deg);
+	transform-origin: center;
+	transition: all .5s linear;
+}
+
+.left-hem {
+	cursor: pointer;
+}
+
+.left-mag:hover .left-mag {
 	transform: rotate(0deg);
 }
 
 
-#left-hem:hover  {
-	display: none;
-}
 
 /*definiton styling*/
 

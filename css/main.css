@@ -58,7 +58,6 @@ header svg {
 	color: #fff;
 }
 
-
 h1 {
 	padding: 0;
 	margin: 0;
@@ -73,8 +72,23 @@ h2 {
 
 h1, h2, h3, h4{ 
 	font-weight: normal;
+
 }
 
+/*rotating magnifying glasses*/
+
+.left-mag {
+	transform: rotate(-90deg);
+}
+
+#left-hem:hover + .left-mag {
+	transform: rotate(0deg);
+}
+
+
+#left-hem:hover  {
+	display: none;
+}
 
 /*definiton styling*/
 
@@ -96,12 +110,14 @@ h1, h2, h3, h4{
 	position: relative;
 }
 
-.traits h3 {
-	color: #fff;
+h3 {
 	margin-bottom: 3rem;
+	margin-top: 3rem;
 }
 
 h4 {
+	cursor: pointer;
+
 	color: #fff;
 	font-size: 1.5rem;
 
@@ -177,7 +193,6 @@ input {
 	}
 }
 
-
 [type=radio]:checked ~ label ~ .trait-description {
   display: block;
 }
@@ -210,10 +225,26 @@ input {
 	background-color: #CDB7D9;
 }
 
-.advice p {
+.advice div p {
+	display: block;
+	width: 100%;
+}
+
+.advice div {
 	background-color: #fff;
 	padding: 1rem;
 	border-radius: 100px;
+	vertical-align: middle;
+
+	cursor: pointer;
+}
+
+.right-advice div {
+	border: 5px solid #9863A9;
+}
+
+.left-advice div {
+	border: 5px solid #00A88A;
 }
 
 .advice {

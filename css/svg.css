@@ -206,3 +206,27 @@
 	stroke-linejoin:round;
 	stroke-miterlimit:10;
 }
+
+.rmag0 {
+	fill:#ECF0F9;
+}
+
+.rmag1 {
+	fill:#8EBBE4;
+}
+
+.rmag2 {
+	fill:#4094D1;
+}
+
+.lmag0 {
+	fill:#ECF0F9;
+}
+
+.lmag1 {
+	fill:#4094D1;
+} 
+
+.lmag2 {
+	fill:#8EBBE4;
+}

@@ -15,7 +15,6 @@ medium green #61C4B2
 light green #C1E4DC
 */
 
-
 html {
   box-sizing: border-box;
   @-moz-viewport { width: device-width; scale: 1; }
@@ -43,9 +42,9 @@ body {
 }
 
 header svg {
-	max-width: 50rem;
 	display: block;
 	margin: 0 auto;
+	max-width: 50rem;
 }
 
 .banner {
@@ -72,7 +71,6 @@ h2 {
 
 h1, h2, h3, h4{ 
 	font-weight: normal;
-
 }
 
 /*rotating magnifying glasses*/
@@ -100,14 +98,12 @@ h1, h2, h3, h4{
 }
 
 .left-hem {
-	cursor: pointer;
+	cursor: point;
 }
 
-.left-mag:hover .left-mag {
+.left-hem:hover .left-mag {
 	transform: rotate(0deg);
 }
-
-
 
 /*definiton styling*/
 
@@ -124,7 +120,7 @@ h1, h2, h3, h4{
 /*traits styling*/
 
 .traits {
-	padding: 1rem 1rem 3rem;
+	padding: 1rem 1rem 6rem;
 
 	position: relative;
 }
@@ -138,7 +134,7 @@ h4 {
 	cursor: pointer;
 
 	color: #fff;
-	font-size: 1.5rem;
+	font-size: 1rem;
 
 	display: inline-block;
 	padding: .5rem;
@@ -169,7 +165,6 @@ input {
 	display: none;
 }
 
-
 .traits li {
 	display: inline-block;
 
@@ -181,7 +176,6 @@ input {
 		width: 45%;
 	}
 }
-
 
 @media only screen and (min-width: 38em) {
 	.traits li {
@@ -231,6 +225,11 @@ input {
 }
 
 /*advice styling*/
+
+ul {
+	margin: 0;
+	padding: 0;
+}
 
 .advice {
 	padding: 1rem;
